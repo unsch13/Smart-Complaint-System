@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Smart Complaint Management System - Flutter Web App",
   "scripts": {
-    "build:vercel": "node scripts/inject-env.js && flutter build web --release",
-    "build": "flutter build web --release",
+    "build:vercel": "bash scripts/build.sh",
+    "build": "flutter build web --release --web-renderer canvaskit",
     "dev": "flutter run -d chrome"
   },
   "engines": {

@@ -2,7 +2,7 @@
   "buildCommand": "npm run build:vercel",
   "outputDirectory": "build/web",
   "devCommand": "flutter run -d chrome",
-  "installCommand": "npm install && flutter pub get",
+  "installCommand": "npm install",
   "framework": null,
   "rewrites": [
     {
