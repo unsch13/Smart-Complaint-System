@@ -1,0 +1,50 @@
+# Flutter build artifacts
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/
+android_local.properties
+
+# iOS
+ios/
+*.xcworkspace
+*.xcodeproj
+
+# Web
+web/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Other
+*.log
+.DS_Store
+Thumbs.db
+
+# Test files
+test/
+integration_test/
+
+# Documentation
+*.md
+!README.md
+
+# Email server
+email-server/
+
+# Supabase local files
+supabase/dev.db
+

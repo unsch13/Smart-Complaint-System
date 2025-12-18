@@ -1,0 +1,15 @@
+{
+  "name": "smart-complaint-system",
+  "version": "1.0.0",
+  "description": "Smart Complaint Management System - Flutter Web App",
+  "scripts": {
+    "build:vercel": "node scripts/inject-env.js && flutter build web --release",
+    "build": "flutter build web --release",
+    "dev": "flutter run -d chrome"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {}
+}
+
